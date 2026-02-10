@@ -51,7 +51,7 @@ config <- list(
   
   # Analysis parameters
   pval_threshold = 5e-8,          # P-value threshold for instrument selection
-  clump_r2 = 0.001,              # LD clumping R² threshold  
+  clump_r2 = 0.1,              # LD clumping R² threshold  
   clump_kb = 10000,              # LD clumping distance in kb
   f_stat_threshold = 10,          # F-statistic threshold for weak instruments
   
